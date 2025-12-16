@@ -1,0 +1,330 @@
+2025-12-16 11:02:08,664 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 11:02:08,667 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 11:02:08,671 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 11:02:08,673 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 11:02:20,065 - app.vectorstore - INFO - Loading existing FAISS index from faiss.index
+2025-12-16 11:02:20,432 - app.vectorstore - INFO - Loading metadata from meta.pkl
+2025-12-16 11:02:21,088 - app.vectorstore - INFO - Vector store initialization completed
+2025-12-16 13:45:16,194 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 13:45:16,197 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 13:45:16,203 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 13:45:16,206 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 13:45:39,418 - app.vectorstore - INFO - Loading existing FAISS index from faiss.index
+2025-12-16 13:45:39,446 - app.vectorstore - INFO - Loading metadata from meta.pkl
+2025-12-16 13:45:39,497 - app.vectorstore - INFO - Vector store initialization completed
+2025-12-16 13:52:18,255 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 13:52:18,259 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 13:52:18,267 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 13:52:18,268 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 13:52:25,598 - app.vectorstore - INFO - [OK] SentenceTransformer model loaded successfully
+2025-12-16 13:52:25,599 - app.vectorstore - INFO - Loading existing FAISS index from faiss.index
+2025-12-16 13:52:25,620 - app.vectorstore - INFO - [OK] FAISS index loaded with 6370 vectors
+2025-12-16 13:52:25,622 - app.vectorstore - INFO - Loading metadata from meta.pkl
+2025-12-16 13:52:25,722 - app.vectorstore - INFO - [OK] Metadata loaded with 6370 entries
+2025-12-16 13:52:25,725 - app.vectorstore - INFO - Vector store initialization completed
+2025-12-16 13:53:02,307 - app.main - INFO - [START] Starting RAG Backend Server...
+2025-12-16 13:53:02,308 - app.main - INFO - [SETUP] Pre-warming vector store components...
+2025-12-16 13:53:02,308 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 13:53:02,309 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 13:53:02,312 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 13:53:02,313 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 15:40:44,177 - app.main - INFO - [START] Starting RAG Backend Server...
+2025-12-16 15:40:44,179 - app.main - INFO - [SETUP] Pre-warming vector store components...
+2025-12-16 15:40:44,180 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 15:40:44,181 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 15:40:44,184 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 15:40:44,186 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 15:40:49,316 - app.vectorstore - INFO - [OK] SentenceTransformer model loaded successfully
+2025-12-16 15:40:49,317 - app.vectorstore - INFO - Loading existing FAISS index from faiss.index
+2025-12-16 15:40:49,325 - app.vectorstore - INFO - [OK] FAISS index loaded with 6370 vectors
+2025-12-16 15:40:49,326 - app.vectorstore - INFO - Loading metadata from meta.pkl
+2025-12-16 15:40:49,365 - app.vectorstore - INFO - [OK] Metadata loaded with 6370 entries
+2025-12-16 15:40:49,368 - app.vectorstore - INFO - Vector store initialization completed
+2025-12-16 15:40:49,371 - app.main - INFO - [OK] Vector store pre-warming completed
+2025-12-16 15:40:49,372 - app.main - INFO - [COMPLETE] RAG Backend Server startup completed
+2025-12-16 15:43:38,638 - app.progress - INFO - Started progress session: c2c62a0b-ac89-4440-8fd2-418365fde92f
+2025-12-16 15:43:38,645 - app.main - INFO - [FILE] Received file upload: ACE-Paper (1).pdf
+2025-12-16 15:43:38,650 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [FILE] Received file: ACE-Paper (1).pdf - info
+2025-12-16 15:43:38,655 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] File type validated - success
+2025-12-16 15:43:38,661 - app.main - INFO - [READ] Reading file bytes...
+2025-12-16 15:43:38,668 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [read] Reading file bytes... - info
+2025-12-16 15:43:38,971 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] File read: 2140519 bytes - success
+2025-12-16 15:43:38,980 - app.main - INFO - [QUEUE] Adding ingestion task to background queue...
+2025-12-16 15:43:38,987 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [QUEUE] Starting background processing... - info
+2025-12-16 15:43:39,294 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [PROCESS] Starting document processing... - info
+2025-12-16 15:43:39,311 - app.ingest - INFO - [PROCESS] Starting document ingestion: ACE-Paper (1).pdf
+2025-12-16 15:43:39,328 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [PROCESS] Processing document: ACE-Paper (1).pdf - info
+2025-12-16 15:43:39,351 - app.ingest - INFO - [read] Step 1: Loading text from document...
+2025-12-16 15:43:39,362 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [read] Extracting text from PDF... - info
+2025-12-16 15:43:39,376 - app.utils - INFO - [FILE] Loading text from: ACE-Paper (1).pdf
+2025-12-16 15:43:39,395 - app.utils - INFO - [PROCESS] Processing PDF file...
+2025-12-16 15:43:39,552 - app.utils - INFO - [OK] PDF loaded successfully: 23 pages
+2025-12-16 15:43:39,893 - app.utils - INFO - Page 1: 2678 characters extracted
+2025-12-16 15:43:40,023 - app.utils - INFO - Page 2: 4622 characters extracted
+2025-12-16 15:43:40,189 - app.utils - INFO - Page 3: 3135 characters extracted
+2025-12-16 15:43:40,314 - app.utils - INFO - Page 4: 2195 characters extracted
+2025-12-16 15:43:40,626 - app.utils - INFO - Page 5: 3025 characters extracted
+2025-12-16 15:43:40,851 - app.utils - INFO - Page 6: 3781 characters extracted
+2025-12-16 15:43:41,007 - app.utils - INFO - Page 7: 4195 characters extracted
+2025-12-16 15:43:41,309 - app.utils - INFO - Page 8: 2684 characters extracted
+2025-12-16 15:43:41,500 - app.utils - INFO - Page 9: 3098 characters extracted
+2025-12-16 15:43:41,657 - app.utils - INFO - Page 10: 3424 characters extracted
+2025-12-16 15:43:41,778 - app.utils - INFO - Page 11: 3468 characters extracted
+2025-12-16 15:43:41,868 - app.utils - INFO - Page 12: 3588 characters extracted
+2025-12-16 15:43:42,079 - app.utils - INFO - Page 13: 3243 characters extracted
+2025-12-16 15:43:42,351 - app.utils - INFO - Page 14: 3044 characters extracted
+2025-12-16 15:43:42,940 - app.utils - INFO - Page 15: 2934 characters extracted
+2025-12-16 15:43:43,548 - app.utils - INFO - Page 16: 4643 characters extracted
+2025-12-16 15:43:43,871 - app.utils - INFO - Page 17: 5209 characters extracted
+2025-12-16 15:43:44,024 - app.utils - INFO - Page 18: 3253 characters extracted
+2025-12-16 15:43:45,150 - app.utils - INFO - Page 19: 5651 characters extracted
+2025-12-16 15:43:45,395 - app.utils - INFO - Page 20: 5209 characters extracted
+2025-12-16 15:43:45,511 - app.utils - INFO - Page 21: 1425 characters extracted
+2025-12-16 15:43:45,667 - app.utils - INFO - Page 22: 2441 characters extracted
+2025-12-16 15:43:45,794 - app.utils - INFO - Page 23: 2685 characters extracted
+2025-12-16 15:43:45,795 - app.utils - INFO - [OK] PDF text extraction completed: 79652 total characters
+2025-12-16 15:43:45,810 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] Text extracted: 79652 characters - success
+2025-12-16 15:43:45,811 - app.ingest - INFO - [CHUNK] Step 2: Chunking text into segments...
+2025-12-16 15:43:45,811 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [CHUNK] Splitting text into chunks... - info
+2025-12-16 15:43:45,812 - app.utils - INFO - [CHUNK] Chunking text: 79652 characters with size=800, overlap=150
+2025-12-16 15:43:45,812 - app.utils - INFO - Chunk 1: 800 chars, starts with: 'Agentic Context Engineering: Evolving Contexts for...'
+2025-12-16 15:43:45,813 - app.utils - INFO - Chunk 2: 800 chars, starts with: 'ity but often suffer from brevity bias, which drop...'
+2025-12-16 15:43:45,813 - app.utils - INFO - Chunk 3: 800 chars, starts with: 'oth offline (e.g.,system prompts) and online (e.g....'
+2025-12-16 15:43:45,814 - app.utils - INFO - Chunk 4: 800 chars, starts with: 'with low overhead.
+1 Introduction
+Base LLMICLGEPAD...'
+2025-12-16 15:43:45,814 - app.utils - INFO - Chunk 5: 800 chars, starts with: 'ead of modifying model weights, contextarXiv:2510....'
+2025-12-16 15:43:45,815 - app.utils - INFO - [OK] Text chunking completed: 123 chunks created
+2025-12-16 15:43:45,816 - app.utils - INFO - Average chunk size: 796.4 characters
+2025-12-16 15:43:45,822 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] Created 123 text chunks - success
+2025-12-16 15:43:45,828 - app.ingest - INFO - Chunk 2 preview: ity but often suffer from brevity bias, which drops domain insights for
+concise summaries, and from ...
+2025-12-16 15:43:45,830 - app.ingest - INFO - Chunk 3 preview: oth offline (e.g.,system prompts) and online (e.g.,
+agent memory), consistently outperforming strong...
+2025-12-16 15:43:45,831 - app.ingest - INFO - [DATA] Step 3: Adding documents to vector store...
+2025-12-16 15:43:45,832 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [DATA] Creating embeddings and storing... - info
+2025-12-16 15:43:45,833 - app.vectorstore - INFO - Starting document ingestion for source: ACE-Paper (1).pdf
+2025-12-16 15:43:45,834 - app.vectorstore - INFO - Number of chunks to process: 123
+2025-12-16 15:43:45,836 - app.vectorstore - INFO - Vector store already initialized
+2025-12-16 15:43:45,837 - app.vectorstore - INFO - Generating embeddings for document chunks...
+2025-12-16 15:44:15,325 - app.vectorstore - INFO - [OK] Generated 123 embeddings
+2025-12-16 15:44:15,335 - app.vectorstore - INFO - Adding embeddings to FAISS index...
+2025-12-16 15:44:15,387 - app.vectorstore - INFO - [OK] Added 123 vectors to index (total: 6493)
+2025-12-16 15:44:15,407 - app.vectorstore - INFO - Updating metadata store...
+2025-12-16 15:44:15,422 - app.vectorstore - INFO - [OK] Added 123 metadata entries (total: 6493)
+2025-12-16 15:44:15,433 - app.vectorstore - INFO - Persisting index and metadata to disk...
+2025-12-16 15:44:15,498 - app.vectorstore - INFO - [OK] FAISS index saved to faiss.index
+2025-12-16 15:44:15,547 - app.vectorstore - INFO - [OK] Metadata saved to meta.pkl
+2025-12-16 15:44:15,548 - app.vectorstore - INFO - Document ingestion completed for ACE-Paper (1).pdf
+2025-12-16 15:44:15,552 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] Document stored successfully - success
+2025-12-16 15:44:15,553 - app.progress - INFO - Progress [c2c62a0b-ac89-4440-8fd2-418365fde92f]: [OK] Document ingestion completed - success
+2025-12-16 15:44:15,553 - app.progress - INFO - Ended progress session: c2c62a0b-ac89-4440-8fd2-418365fde92f
+2025-12-16 15:45:08,523 - app.progress - INFO - Started progress session: c516daf2-f82e-497f-97e2-c32f27e7f3bd
+2025-12-16 15:45:08,524 - app.main - INFO - [QUERY] Received query: 'What kind of context engineering was mentioned in the document'
+2025-12-16 15:45:08,526 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [QUERY] Processing query: What kind of context engineering was mentioned in ... - info
+2025-12-16 15:45:08,530 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [SEARCH] Starting question processing... - info
+2025-12-16 15:45:08,534 - app.rag - INFO - Processing question: 'What kind of context engineering was mentioned in the document'
+2025-12-16 15:45:08,541 - app.rag - INFO - Step 1: Searching for relevant documents...
+2025-12-16 15:45:08,549 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [SEARCH] Searching documents... - info
+2025-12-16 15:45:08,552 - app.vectorstore - INFO - Starting search for query: 'What kind of context engineering was mentioned in the document...' (k=5)
+2025-12-16 15:45:08,553 - app.vectorstore - INFO - Vector store already initialized
+2025-12-16 15:45:08,556 - app.vectorstore - INFO - Vector store status: 6493 vectors, 6493 metadata entries
+2025-12-16 15:45:08,557 - app.vectorstore - INFO - Generating query embedding...
+2025-12-16 15:45:08,717 - app.vectorstore - INFO - [OK] Query embedding generated
+2025-12-16 15:45:08,719 - app.vectorstore - INFO - Performing similarity search...
+2025-12-16 15:45:08,735 - app.vectorstore - INFO - [OK] Search completed, found 5 results
+2025-12-16 15:45:08,743 - app.vectorstore - INFO - Distances: [0.7530642747879028, 0.7530642747879028, 0.9592410922050476, 0.9592410922050476, 1.0113093852996826]
+2025-12-16 15:45:08,752 - app.vectorstore - INFO - Indices: [6263, 6386, 6297, 6420, 6264]
+2025-12-16 15:45:08,758 - app.vectorstore - INFO - Retrieving metadata for results...
+2025-12-16 15:45:08,761 - app.vectorstore - INFO - Result 1: Source='ACE-Paper (1).pdf', Text='e, at step 60 the context contained
+3
+18,282 tokens and achieved an accuracy of 66.7, but at the ver...'
+2025-12-16 15:45:08,764 - app.vectorstore - INFO - Result 2: Source='ACE-Paper (1).pdf', Text='e, at step 60 the context contained
+3
+18,282 tokens and achieved an accuracy of 66.7, but at the ver...'
+2025-12-16 15:45:08,770 - app.vectorstore - INFO - Result 3: Source='ACE-Paper (1).pdf', Text='rs,
+Baiwu Zhang, David Lie, and Nicolas Papernot. Machine unlearning.IEEE Symposium on Security and
+...'
+2025-12-16 15:45:08,775 - app.vectorstore - INFO - Result 4: Source='ACE-Paper (1).pdf', Text='rs,
+Baiwu Zhang, David Lie, and Nicolas Papernot. Machine unlearning.IEEE Symposium on Security and
+...'
+2025-12-16 15:45:08,778 - app.vectorstore - INFO - Result 5: Source='ACE-Paper (1).pdf', Text='h tools and code that are readily usable, serving
+as a comprehensive playbook for LLM applications.
+...'
+2025-12-16 15:45:08,786 - app.vectorstore - INFO - Search completed, returning 5 results
+2025-12-16 15:45:08,791 - app.rag - INFO - [OK] Found 5 relevant documents
+2025-12-16 15:45:08,794 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [OK] Found 5 relevant documents - success
+2025-12-16 15:45:08,796 - app.rag - INFO - Step 2: Building context from retrieved documents...
+2025-12-16 15:45:08,805 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [PROCESS] Building context from documents... - info
+2025-12-16 15:45:08,809 - app.rag - INFO - Added context 1: Source='ACE-Paper (1).pdf', Length=800 chars
+2025-12-16 15:45:08,810 - app.rag - INFO - Added context 2: Source='ACE-Paper (1).pdf', Length=800 chars
+2025-12-16 15:45:08,812 - app.rag - INFO - Added context 3: Source='ACE-Paper (1).pdf', Length=800 chars
+2025-12-16 15:45:08,823 - app.rag - INFO - Added context 4: Source='ACE-Paper (1).pdf', Length=800 chars
+2025-12-16 15:45:08,828 - app.rag - INFO - Added context 5: Source='ACE-Paper (1).pdf', Length=800 chars
+2025-12-16 15:45:08,835 - app.rag - INFO - [OK] Built context with 4158 total characters
+2025-12-16 15:45:08,841 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [OK] Built context: 4158 characters - success
+2025-12-16 15:45:08,843 - app.rag - INFO - Step 3: Constructing prompt for AI generation...
+2025-12-16 15:45:08,845 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [AI] Preparing AI prompt... - info
+2025-12-16 15:45:08,854 - app.rag - INFO - [OK] Constructed prompt with 4471 characters
+2025-12-16 15:45:08,859 - app.rag - INFO - Step 4: Generating AI response...
+2025-12-16 15:45:08,861 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [AI] Generating AI response... - info
+2025-12-16 15:45:08,863 - app.rag - INFO - Generating response using Ollama model: llama3.2:3b
+2025-12-16 15:45:08,871 - app.rag - INFO - Ollama host: http://localhost:11434
+2025-12-16 15:45:08,873 - app.rag - INFO - Prompt length: 4471 characters
+2025-12-16 15:45:08,875 - app.rag - INFO - Sending request to Ollama API...
+2025-12-16 15:48:00,260 - app.rag - INFO - Ollama API response status: 200
+2025-12-16 15:48:00,273 - app.rag - INFO - [OK] Ollama API request successful
+2025-12-16 15:48:00,284 - app.rag - INFO - Parsing Ollama response...
+2025-12-16 15:48:00,313 - app.rag - INFO - [OK] Generated response length: 95 characters
+2025-12-16 15:48:00,333 - app.rag - INFO - [OK] Generated answer with 95 characters
+2025-12-16 15:48:00,345 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [OK] AI response generated: 95 chars - success
+2025-12-16 15:48:00,360 - app.rag - INFO - Step 5: Preparing response with sources...
+2025-12-16 15:48:00,376 - app.rag - INFO - [OK] Prepared 5 source references
+2025-12-16 15:48:00,402 - app.rag - INFO - Question processing completed successfully
+2025-12-16 15:48:00,526 - app.progress - INFO - Progress [c516daf2-f82e-497f-97e2-c32f27e7f3bd]: [OK] Query completed successfully - success
+2025-12-16 15:48:00,534 - app.progress - INFO - Ended progress session: c516daf2-f82e-497f-97e2-c32f27e7f3bd
+2025-12-16 15:56:07,083 - app.progress - INFO - Started progress session: 1efd2c52-991d-4120-ad91-4f27f67a3876
+2025-12-16 15:56:07,090 - app.main - INFO - [FILE] Received file upload: 22_Can_Visual_Encoder_Learn_to.pdf
+2025-12-16 15:56:07,100 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [FILE] Received file: 22_Can_Visual_Encoder_Learn_to.pdf - info
+2025-12-16 15:56:07,108 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] File type validated - success
+2025-12-16 15:56:07,113 - app.main - INFO - [READ] Reading file bytes...
+2025-12-16 15:56:07,118 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [read] Reading file bytes... - info
+2025-12-16 15:56:07,340 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] File read: 584689 bytes - success
+2025-12-16 15:56:07,346 - app.main - INFO - [QUEUE] Adding ingestion task to background queue...
+2025-12-16 15:56:07,350 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [QUEUE] Starting background processing... - info
+2025-12-16 15:56:07,476 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [PROCESS] Starting document processing... - info
+2025-12-16 15:56:07,480 - app.ingest - INFO - [PROCESS] Starting document ingestion: 22_Can_Visual_Encoder_Learn_to.pdf
+2025-12-16 15:56:07,482 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [PROCESS] Processing document: 22_Can_Visual_Encoder_Learn_to.pdf - info
+2025-12-16 15:56:07,486 - app.ingest - INFO - [read] Step 1: Loading text from document...
+2025-12-16 15:56:07,491 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [read] Extracting text from PDF... - info
+2025-12-16 15:56:07,494 - app.utils - INFO - [FILE] Loading text from: 22_Can_Visual_Encoder_Learn_to.pdf
+2025-12-16 15:56:07,501 - app.utils - INFO - [PROCESS] Processing PDF file...
+2025-12-16 15:56:07,549 - app.utils - INFO - [OK] PDF loaded successfully: 6 pages
+2025-12-16 15:56:07,936 - app.utils - INFO - Page 1: 4564 characters extracted
+2025-12-16 15:56:08,136 - app.utils - INFO - Page 2: 4229 characters extracted
+2025-12-16 15:56:08,629 - app.utils - INFO - Page 3: 4465 characters extracted
+2025-12-16 15:56:09,604 - app.utils - INFO - Page 4: 3565 characters extracted
+2025-12-16 15:56:09,919 - app.utils - INFO - Page 5: 5700 characters extracted
+2025-12-16 15:56:10,049 - app.utils - INFO - Page 6: 1033 characters extracted
+2025-12-16 15:56:10,058 - app.utils - INFO - [OK] PDF text extraction completed: 23561 total characters
+2025-12-16 15:56:10,122 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] Text extracted: 23561 characters - success
+2025-12-16 15:56:10,128 - app.ingest - INFO - [CHUNK] Step 2: Chunking text into segments...
+2025-12-16 15:56:10,136 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [CHUNK] Splitting text into chunks... - info
+2025-12-16 15:56:10,143 - app.utils - INFO - [CHUNK] Chunking text: 23561 characters with size=800, overlap=150
+2025-12-16 15:56:10,148 - app.utils - INFO - Chunk 1: 800 chars, starts with: 'Can Visual Encoder Learn to See Arrows?
+Naoyuki Te...'
+2025-12-16 15:56:10,165 - app.utils - INFO - Chunk 2: 800 chars, starts with: ' and positional biases, preventing VLMs
+from learn...'
+2025-12-16 15:56:10,172 - app.utils - INFO - Chunk 3: 800 chars, starts with: 'LaVA-Mistral in the cap-
+tioning task. These findi...'
+2025-12-16 15:56:10,177 - app.utils - INFO - Chunk 4: 800 chars, starts with: 'u-
+rately recognize diagram images.
+However, recen...'
+2025-12-16 15:56:10,181 - app.utils - INFO - Chunk 5: 800 chars, starts with: 's GPT-4o
+[17] and Gemini-1.5 Pro [23] can sometime...'
+2025-12-16 15:56:10,186 - app.utils - INFO - [OK] Text chunking completed: 37 chunks created
+2025-12-16 15:56:10,196 - app.utils - INFO - Average chunk size: 782.7 characters
+2025-12-16 15:56:10,321 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] Created 37 text chunks - success
+2025-12-16 15:56:10,326 - app.ingest - INFO - Chunk 1 preview: Can Visual Encoder Learn to See Arrows?
+Naoyuki Terashita1*Yusuke Tozaki1,2†Hideaki Omote1,3†Congkha...
+2025-12-16 15:56:10,332 - app.ingest - INFO - Chunk 2 preview:  and positional biases, preventing VLMs
+from learning explicit edge features. Based on this idea,
+we...
+2025-12-16 15:56:10,340 - app.ingest - INFO - Chunk 3 preview: LaVA-Mistral in the cap-
+tioning task. These findings confirm that eliminating tex-
+tual and positio...
+2025-12-16 15:56:10,346 - app.ingest - INFO - [DATA] Step 3: Adding documents to vector store...
+2025-12-16 15:56:10,353 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [DATA] Creating embeddings and storing... - info
+2025-12-16 15:56:10,357 - app.vectorstore - INFO - Starting document ingestion for source: 22_Can_Visual_Encoder_Learn_to.pdf
+2025-12-16 15:56:10,361 - app.vectorstore - INFO - Number of chunks to process: 37
+2025-12-16 15:56:10,368 - app.vectorstore - INFO - Vector store already initialized
+2025-12-16 15:56:10,372 - app.vectorstore - INFO - Generating embeddings for document chunks...
+2025-12-16 15:56:17,870 - app.vectorstore - INFO - [OK] Generated 37 embeddings
+2025-12-16 15:56:17,872 - app.vectorstore - INFO - Adding embeddings to FAISS index...
+2025-12-16 15:56:17,875 - app.vectorstore - INFO - [OK] Added 37 vectors to index (total: 6530)
+2025-12-16 15:56:17,877 - app.vectorstore - INFO - Updating metadata store...
+2025-12-16 15:56:17,879 - app.vectorstore - INFO - [OK] Added 37 metadata entries (total: 6530)
+2025-12-16 15:56:17,881 - app.vectorstore - INFO - Persisting index and metadata to disk...
+2025-12-16 15:56:17,910 - app.vectorstore - INFO - [OK] FAISS index saved to faiss.index
+2025-12-16 15:56:18,056 - app.vectorstore - INFO - [OK] Metadata saved to meta.pkl
+2025-12-16 15:56:18,064 - app.vectorstore - INFO - Document ingestion completed for 22_Can_Visual_Encoder_Learn_to.pdf
+2025-12-16 15:56:18,112 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] Document stored successfully - success
+2025-12-16 15:56:18,116 - app.progress - INFO - Progress [1efd2c52-991d-4120-ad91-4f27f67a3876]: [OK] Document ingestion completed - success
+2025-12-16 15:56:18,121 - app.progress - INFO - Ended progress session: 1efd2c52-991d-4120-ad91-4f27f67a3876
+2025-12-16 15:56:33,442 - app.progress - INFO - Started progress session: 3df96389-5c8e-46fd-b9b9-41749a8d3f55
+2025-12-16 15:56:33,445 - app.main - INFO - [QUERY] Received query: 'What kind of visual encoders are failing to detect the arrows in an image'
+2025-12-16 15:56:33,456 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [QUERY] Processing query: What kind of visual encoders are failing to detect... - info
+2025-12-16 15:56:33,470 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [SEARCH] Starting question processing... - info
+2025-12-16 15:56:33,482 - app.rag - INFO - Processing question: 'What kind of visual encoders are failing to detect the arrows in an image'
+2025-12-16 15:56:33,488 - app.rag - INFO - Step 1: Searching for relevant documents...
+2025-12-16 15:56:33,491 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [SEARCH] Searching documents... - info
+2025-12-16 15:56:33,495 - app.vectorstore - INFO - Starting search for query: 'What kind of visual encoders are failing to detect the arrows in an image...' (k=5)
+2025-12-16 15:56:33,500 - app.vectorstore - INFO - Vector store already initialized
+2025-12-16 15:56:33,502 - app.vectorstore - INFO - Vector store status: 6530 vectors, 6530 metadata entries
+2025-12-16 15:56:33,505 - app.vectorstore - INFO - Generating query embedding...
+2025-12-16 15:56:33,806 - app.vectorstore - INFO - [OK] Query embedding generated
+2025-12-16 15:56:33,811 - app.vectorstore - INFO - Performing similarity search...
+2025-12-16 15:56:33,831 - app.vectorstore - INFO - [OK] Search completed, found 5 results
+2025-12-16 15:56:33,836 - app.vectorstore - INFO - Distances: [0.7762614488601685, 0.857508659362793, 1.0447306632995605, 1.0559409856796265, 1.1067653894424438]
+2025-12-16 15:56:33,840 - app.vectorstore - INFO - Indices: [6493, 6496, 6508, 6495, 6505]
+2025-12-16 15:56:33,846 - app.vectorstore - INFO - Retrieving metadata for results...
+2025-12-16 15:56:33,852 - app.vectorstore - INFO - Result 1: Source='22_Can_Visual_Encoder_Learn_to.pdf', Text='Can Visual Encoder Learn to See Arrows?
+Naoyuki Terashita1*Yusuke Tozaki1,2†Hideaki Omote1,3†Congkha...'
+2025-12-16 15:56:33,865 - app.vectorstore - INFO - Result 2: Source='22_Can_Visual_Encoder_Learn_to.pdf', Text='u-
+rately recognize diagram images.
+However, recent studies suggest that VLMs might not
+accurately r...'
+2025-12-16 15:56:33,880 - app.vectorstore - INFO - Result 3: Source='22_Can_Visual_Encoder_Learn_to.pdf', Text='ndard contrastive learning using our artificial dataset
+with a sufficiently large number of training...'
+2025-12-16 15:56:33,886 - app.vectorstore - INFO - Result 4: Source='22_Can_Visual_Encoder_Learn_to.pdf', Text='LaVA-Mistral in the cap-
+tioning task. These findings confirm that eliminating tex-
+tual and positio...'
+2025-12-16 15:56:33,893 - app.vectorstore - INFO - Result 5: Source='22_Can_Visual_Encoder_Learn_to.pdf', Text='ent numbers of
+nodes (two to eight). For each graph, we draw a diagram
+image as in Fig. 2 whose node...'
+2025-12-16 15:56:33,901 - app.vectorstore - INFO - Search completed, returning 5 results
+2025-12-16 15:56:33,915 - app.rag - INFO - [OK] Found 5 relevant documents
+2025-12-16 15:56:33,920 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [OK] Found 5 relevant documents - success
+2025-12-16 15:56:33,933 - app.rag - INFO - Step 2: Building context from retrieved documents...
+2025-12-16 15:56:33,951 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [PROCESS] Building context from documents... - info
+2025-12-16 15:56:33,998 - app.rag - INFO - Added context 1: Source='22_Can_Visual_Encoder_Learn_to.pdf', Length=800 chars
+2025-12-16 15:56:34,020 - app.rag - INFO - Added context 2: Source='22_Can_Visual_Encoder_Learn_to.pdf', Length=800 chars
+2025-12-16 15:56:34,047 - app.rag - INFO - Added context 3: Source='22_Can_Visual_Encoder_Learn_to.pdf', Length=800 chars
+2025-12-16 15:56:34,087 - app.rag - INFO - Added context 4: Source='22_Can_Visual_Encoder_Learn_to.pdf', Length=800 chars
+2025-12-16 15:56:34,112 - app.rag - INFO - Added context 5: Source='22_Can_Visual_Encoder_Learn_to.pdf', Length=800 chars
+2025-12-16 15:56:34,131 - app.rag - INFO - [OK] Built context with 4243 total characters
+2025-12-16 15:56:34,147 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [OK] Built context: 4243 characters - success
+2025-12-16 15:56:34,196 - app.rag - INFO - Step 3: Constructing prompt for AI generation...
+2025-12-16 15:56:34,207 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [AI] Preparing AI prompt... - info
+2025-12-16 15:56:34,223 - app.rag - INFO - [OK] Constructed prompt with 4567 characters
+2025-12-16 15:56:34,236 - app.rag - INFO - Step 4: Generating AI response...
+2025-12-16 15:56:34,248 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [AI] Generating AI response... - info
+2025-12-16 15:56:34,256 - app.rag - INFO - Generating response using Ollama model: llama3.2:3b
+2025-12-16 15:56:34,280 - app.rag - INFO - Ollama host: http://localhost:11434
+2025-12-16 15:56:34,300 - app.rag - INFO - Prompt length: 4567 characters
+2025-12-16 15:56:34,317 - app.rag - INFO - Sending request to Ollama API...
+2025-12-16 16:00:40,852 - app.rag - INFO - Ollama API response status: 200
+2025-12-16 16:00:40,857 - app.rag - INFO - [OK] Ollama API request successful
+2025-12-16 16:00:40,864 - app.rag - INFO - Parsing Ollama response...
+2025-12-16 16:00:40,873 - app.rag - INFO - [OK] Generated response length: 441 characters
+2025-12-16 16:00:40,891 - app.rag - INFO - [OK] Generated answer with 441 characters
+2025-12-16 16:00:40,907 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [OK] AI response generated: 441 chars - success
+2025-12-16 16:00:40,943 - app.rag - INFO - Step 5: Preparing response with sources...
+2025-12-16 16:00:40,971 - app.rag - INFO - [OK] Prepared 5 source references
+2025-12-16 16:00:41,002 - app.rag - INFO - Question processing completed successfully
+2025-12-16 16:00:41,183 - app.progress - INFO - Progress [3df96389-5c8e-46fd-b9b9-41749a8d3f55]: [OK] Query completed successfully - success
+2025-12-16 16:00:41,199 - app.progress - INFO - Ended progress session: 3df96389-5c8e-46fd-b9b9-41749a8d3f55
+2025-12-16 16:01:59,740 - app.main - INFO - [START] Starting RAG Backend Server...
+2025-12-16 16:01:59,746 - app.main - INFO - [SETUP] Pre-warming vector store components...
+2025-12-16 16:01:59,749 - app.vectorstore - INFO - Initializing vector store components...
+2025-12-16 16:01:59,751 - app.vectorstore - INFO - Loading SentenceTransformer model: all-MiniLM-L6-v2
+2025-12-16 16:01:59,763 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-16 16:01:59,765 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-16 16:02:06,254 - app.vectorstore - INFO - [OK] SentenceTransformer model loaded successfully
+2025-12-16 16:02:06,258 - app.vectorstore - INFO - Loading existing FAISS index from faiss.index
+2025-12-16 16:02:06,281 - app.vectorstore - INFO - [OK] FAISS index loaded with 6530 vectors
+2025-12-16 16:02:06,285 - app.vectorstore - INFO - Loading metadata from meta.pkl
+2025-12-16 16:02:06,364 - app.vectorstore - INFO - [OK] Metadata loaded with 6530 entries
+2025-12-16 16:02:06,365 - app.vectorstore - INFO - Vector store initialization completed
+2025-12-16 16:02:06,366 - app.main - INFO - [OK] Vector store pre-warming completed
+2025-12-16 16:02:06,368 - app.main - INFO - [COMPLETE] RAG Backend Server startup completed

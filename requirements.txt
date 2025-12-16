@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu==1.7.4
+PyPDF2
+numpy<2.0
+requests
+python-multipart
+streamlit
